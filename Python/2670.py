@@ -1,0 +1,9 @@
+A1=int(input())
+A2=int(input())
+A3=int(input())
+Tempos=[]
+Tempos.append(A2*2+A3*4)
+Tempos.append(A1*2+A3*2)
+Tempos.append(A1*4+A2*2)
+Menor_Tempo=min(Tempos)
+print(Menor_Tempo)

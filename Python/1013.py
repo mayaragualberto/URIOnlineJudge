@@ -1,0 +1,7 @@
+DADOS=input().split()
+A=int(DADOS[0])
+B=int(DADOS[1])
+C=int(DADOS[2])
+MaiorAB=((A+B+abs(A-B))/2)
+MaiorC=int((MaiorAB+C+abs(MaiorAB-C))/2)
+print(MaiorC,"eh o maior")
