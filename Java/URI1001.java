@@ -1,6 +1,8 @@
+
+//Recebe dois números e imprime a soma
 import java.util.Scanner;
 
-public class A1001 {
+public class URI1001 {
 
     public static void main(String[] args) {
 
